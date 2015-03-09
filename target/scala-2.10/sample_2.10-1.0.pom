@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>sample</groupId>
+    <artifactId>sample_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>sample</description>
+    <version>1.0</version>
+    <name>sample</name>
+    <organization>
+        <name>sample</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.twitter</groupId>
+            <artifactId>finagle-http_2.10</artifactId>
+            <version>6.24.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.twitter</groupId>
+            <artifactId>twitter-server_2.10</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4-1201-jdbc41</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>twttr</id>
+            <name>twttr</name>
+            <url>http://maven.twttr.com/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
